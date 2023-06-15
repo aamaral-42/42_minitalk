@@ -83,5 +83,6 @@ int	main(int argc, char **argv)
 		return (-1);
 	server_process_id = ft_atoi(argv[1]);
 	transmmit_ascii_binary(argv[2], server_process_id);
+	write(1, "\n", 1);
 	return (0);
 }
