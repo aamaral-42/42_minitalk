@@ -14,6 +14,21 @@
 #include <signal.h>
 #include <stdio.h>
 
+/*
+Use this option if your computer is slow. Slow either computer's own architecture
+ or computer is running heavily programs
+
+substitute lines kill(server_process_id, SIGUSR1) and kill(server_process_id, SIGUSR2); 
+with the following lines send_signal_sleep(server_process_id, 10, 24); 
+send_signal_sleep(server_process_id, 12, 24);
+
+void	send_signal_sleep(pid_t s_id, int signal_nbr,unsigned int microsec)
+{
+	kill(s_id, signal_nbr);
+	usleep(microsec);
+}
+*/
+
 int	ft_atoi(const char *pid_ptr)
 {
 	int		index;
