@@ -6,7 +6,7 @@ In this project we have to transmit a message from the Client process to the Ser
 - second     run    >./server
 - third      run    >./client <server_pid> <message to transmit>
 
-___NEW KNOWLEDGE___
+___New KNOWLEDGE___
 
 - int kill(pid_t pid, int sig);
 
@@ -36,15 +36,20 @@ ___Recicled KNOWLEDGE___
      
       128   64    32    16     8     4     2     1
       ___   ___   ___   ___   ___   ___   ___   ___
+      
      |   | |   | |   | |   | |   | |   | |   | |   |
+     
 MSB  |___| |___| |___| |___| |___| |___| |___| |___| LSB
 
 index  0     1     2     3     4     5     6     7
+
+Bit    7     6     5     4     3     2     1     0
 
 ps: remember that MSB at left is computer architecture dependent
 
 
 ****** CLIENT FUNCTIONS ******
+
 
 - function 	int	main(int argc, char **argv)
 
@@ -86,9 +91,20 @@ until the Least Significant Bit - LSB (1 = 2^0)
 give 242 microseconds for the server make some calculations
 
 
+- (optional)
+
+void	send_signal_sleep(pid_t s_id, int signal_nbr,unsigned int microsec)
+
+Use this option if your computer is slow. Slow either computer's own architecture
+ or computer is running heavily programs
+
+substitute lines kill(server_process_id, SIGUSR1) and kill(server_process_id, SIGUSR2); 
+with the following lines send_signal_sleep(server_process_id, 10, 24); 
+send_signal_sleep(server_process_id, 12, 24);
 
 
 ***** SERVER FUNCTIONS *****
+
 
 - function	int	main(void)
 
