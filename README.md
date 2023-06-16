@@ -33,8 +33,8 @@ ___Recicled KNOWLEDGE___
       2^7   2^6   2^5   2^4   2^3   2^2   2^1   2^0
        =     =     =     =     =     =     =     =
       128   64    32    16     8     4     2     1
-       _      _     _     _      _     _     _     _  
- MSB  l_l    l_l   l_l   l_l    |_|   |_|   |_|   |_| LSB
+ 
+ MSB  l_l   l_l   l_l   l_l   l_l   l_l   l_l   l_l LSB
 
 index  0     1     2     3     4     5     6     7
 
