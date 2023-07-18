@@ -9,11 +9,11 @@ run ```./server```
 run ```./client <server_pid> <message to transmit>```
 
 # CONTENTS
-1. [New Knowledge](https://github.com/aamaral-42/42_minitalk/edit/main/README.md#new-knowledge)
-2. [Recicled Knowledge](https://github.com/aamaral-42/42_minitalk/edit/main/README.md#recicled-knowledge)
-3. [Client functions](https://github.com/aamaral-42/42_minitalk/edit/main/README.md#-client-functions-)
-4. [Server functions](https://github.com/aamaral-42/42_minitalk/edit/main/README.md#-server-functions-)
-5. [For future improvements](https://github.com/aamaral-42/42_minitalk/edit/main/README.md#for-future-improvements)
+1. [New Knowledge](#new-knowledge)
+2. [Recicled Knowledge](#recicled-knowledge)
+3. [Client functions](#-client-functions-)
+4. [Server functions](#-server-functions-)
+5. [For future improvements](#for-future-improvements)
 
 ## _______New KNOWLEDGE_______
 
