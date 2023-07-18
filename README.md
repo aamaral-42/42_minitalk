@@ -133,7 +133,9 @@ If you have the time and ability to make this Make file or bash scripting please
 ### Research
 
 I used the algorithm of Euclidean Division to obtain the corresponding 8 bits for each byte. Based on but with some alterations
-[gemartin](#https://github.com/gemartin99/Minitalk)
+ 
+ [gemartin](https://github.com/gemartin99/Minitalk)
 
 I used the CLI arguments checking function idea based on
-[nnuno-ca](#https://github.com/Kuninoto/42_minitalk)
+
+ [nnuno-ca](https://github.com/Kuninoto/42_minitalk)
