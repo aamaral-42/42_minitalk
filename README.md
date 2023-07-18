@@ -136,6 +136,6 @@ I used the algorithm of Euclidean Division to obtain the corresponding 8 bits fo
  
  [gemartin](https://github.com/gemartin99/Minitalk)
 
-I used the CLI arguments checking function idea based on
+I used the CLI received arguments checking function and pid_t variable type ideas based on
 
  [nnuno-ca](https://github.com/Kuninoto/42_minitalk)
