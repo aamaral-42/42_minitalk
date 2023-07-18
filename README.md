@@ -14,6 +14,7 @@ run ```./client <server_pid> <message to transmit>```
 3. [Client functions](#-client-functions-)
 4. [Server functions](#-server-functions-)
 5. [For future improvements](#for-future-improvements)
+6. [Research](#research)
 
 ## _______New KNOWLEDGE_______
 
@@ -76,7 +77,7 @@ to transmit each bit it uses the Euclidean algorithm (the division method learne
  3. goes to the next bit (2^5 = 32) and follow the same algorithm (of Euclidean division)
  4. until the Least Significant Bit - LSB (1 = 2^0)
 
-gives 242 microseconds for the server to make some calculations
+gives 242 microseconds for the server process to make some calculations about the ascii value
 
 ###### **(optional)**
 
@@ -128,3 +129,11 @@ These 2 last functions will be called as many times as many characters were writ
 	- waits for new messages to be inserted in the command line
 
 If you have the time and ability to make this Make file or bash scripting please help me
+
+### Research
+
+I used the algorithm of Euclidean Division to obtain the corresponding 8 bits for each byte. Based on but with some alterations
+[gemartin](#https://github.com/gemartin99/Minitalk)
+
+I used the CLI arguments checking function idea based on
+[nnuno-ca](#https://github.com/Kuninoto/42_minitalk)
